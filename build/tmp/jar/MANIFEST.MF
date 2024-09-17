@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Specification-Title: metalinfection
+Specification-Vendor: HellZDarkArkon68 and TokenOni420
+Specification-Version: 1
+Implementation-Title: metalinfection
+Implementation-Version: 1.0-SNAPSHOT
+Implementation-Vendor: HellZDarkArkon68 and TokenOni420
+Implementation-Timestamp: 2024-09-17T17:48:51-0400
+
