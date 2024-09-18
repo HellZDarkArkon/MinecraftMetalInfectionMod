@@ -1,8 +1,9 @@
 {
-  "item.nanophage.scrap_ingot": "Ingot of Scrap Metal",
-  "item.nanophage.scrap_nugget": "Nugget of Scrap Metal",
+  "item.nanophage.xeno_metal_ingot": "Ingot of Xeno Metal",
+  "item.nanophage.xeno_metal_nugget": "Nugget of Xeno Metal",
 
-  "block.nanophage.scrap_block": "Scrap Metal Block",
+  "block.nanophage.xeno_metal_block": "Xeno Metal Block",
+  "block.nanophage.phage_heart": "The Phage Heart",
 
   "creativetab.nanophage.nanophage_tab": "Nanophage"
 }

@@ -19,8 +19,10 @@ public class PhageBlocks {
     public static final DeferredRegister<Block> PHAGE_BLOCKS =
             DeferredRegister.create(ForgeRegistries.BLOCKS, Nanophage.MOD_ID);
 
-    public static final RegistryObject<Block> SCRAP_BLOCK = registerBlock("scrap_block",
+    public static final RegistryObject<Block> XENO_METAL_BLOCK = registerBlock("xeno_metal_block",
             ()->new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
+    public static final RegistryObject<Block> PHAGE_HEART = registerBlock("phage_heart",
+            ()->new Block(BlockBehaviour.Properties.copy(Blocks.END_PORTAL_FRAME)));
 
     private static <T extends Block>RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = PHAGE_BLOCKS.register(name, block);

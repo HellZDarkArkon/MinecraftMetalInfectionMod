@@ -3,11 +3,11 @@
   "category": "misc",
   "ingredients": [
     {
-      "item": "nanophage:scrap_ingot"
+      "item": "nanophage:xeno_metal_ingot"
     }
   ],
   "result": {
-    "item": "nanophage:scrap_nugget",
+    "item": "nanophage:xeno_metal_nugget",
     "count": 9
   }
 }

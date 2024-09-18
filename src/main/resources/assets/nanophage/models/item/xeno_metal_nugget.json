@@ -1,6 +1,6 @@
 {
   "parent": "generated",
   "textures": {
-    "layer0": "nanophage:item/scrap_nugget"
+    "layer0": "nanophage:item/unused_item_tex"
   }
 }

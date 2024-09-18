@@ -15,13 +15,14 @@ public class PhageCreativeModeTab {
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, "minecraft");
 
     public static final RegistryObject<CreativeModeTab> NANOPHAGE_TAB = TABS.register("nanophage_tab",
-            ()-> CreativeModeTab.builder().icon(()->new ItemStack(PhageItems.SCRAP_INGOT.get()))
+            ()-> CreativeModeTab.builder().icon(()->new ItemStack(PhageItems.XENO_METAL_INGOT.get()))
                     .title(Component.translatable("creativetab.nanophage.nanophage_tab"))
                     .displayItems((pParam, pOutput) -> {
-                        pOutput.accept(PhageItems.SCRAP_INGOT.get());
-                        pOutput.accept(PhageItems.SCRAP_NUGGET.get());
+                        pOutput.accept(PhageItems.XENO_METAL_INGOT.get());
+                        pOutput.accept(PhageItems.XENO_METAL_NUGGET.get());
 
-                        pOutput.accept(PhageBlocks.SCRAP_BLOCK.get());
+                        pOutput.accept(PhageBlocks.XENO_METAL_BLOCK.get());
+                        pOutput.accept(PhageBlocks.PHAGE_HEART.get());
 
                     }).build());
 
