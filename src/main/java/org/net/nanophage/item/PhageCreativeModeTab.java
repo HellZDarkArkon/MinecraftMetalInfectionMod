@@ -22,6 +22,7 @@ public class PhageCreativeModeTab {
                         pOutput.accept(PhageItems.SCRAP_NUGGET.get());
 
                         pOutput.accept(PhageBlocks.SCRAP_BLOCK.get());
+                        pOutput.accept(PhageBlocks.PHAGE_HEART.get());
 
                     }).build());
 
