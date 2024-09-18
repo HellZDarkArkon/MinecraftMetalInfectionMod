@@ -9,9 +9,9 @@ public class PhageItems {
     public static final DeferredRegister<Item> ITEM_REGISTER =
             DeferredRegister.create(ForgeRegistries.ITEMS, Nanophage.MOD_ID);
 
-    public static final RegistryObject<Item> SCRAP_INGOT = ITEM_REGISTER.register("scrap_ingot",
+    public static final RegistryObject<Item> XENO_METAL_INGOT = ITEM_REGISTER.register("xeno_metal_ingot",
             ()->new Item(new Item.Properties()));
-    public static final RegistryObject<Item> SCRAP_NUGGET = ITEM_REGISTER.register("scrap_nugget",
+    public static final RegistryObject<Item> XENO_METAL_NUGGET = ITEM_REGISTER.register("xeno_metal_nugget",
             ()->new Item(new Item.Properties()));
 
 

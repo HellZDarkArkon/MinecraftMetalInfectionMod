@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "nanophage:block/phage_heart"
+    "all": "nanophage:block/unused_block_tex"
   }
 }

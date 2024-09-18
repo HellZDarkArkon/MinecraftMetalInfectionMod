@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "nanophage:scrap_block"
+          "name": "nanophage:xeno_metal_block"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "nanophage:blocks/scrap_block"
+  "random_sequence": "nanophage:blocks/xeno_metal_block"
 }

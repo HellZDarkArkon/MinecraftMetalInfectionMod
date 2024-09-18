@@ -8,11 +8,11 @@
   ],
   "key": {
     "#": {
-      "item": "nanophage:scrap_nugget"
+      "item": "nanophage:xeno_metal_nugget"
     }
   },
   "result": {
-    "item": "nanophage:scrap_ingot",
+    "item": "nanophage:xeno_metal_ingot",
     "count": 1
   }
 }
