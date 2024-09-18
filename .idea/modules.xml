@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/metalinfection.main.iml" filepath="$PROJECT_DIR$/.idea/modules/metalinfection.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/metalinfection.test.iml" filepath="$PROJECT_DIR$/.idea/modules/metalinfection.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/nanophage.main.iml" filepath="$PROJECT_DIR$/.idea/modules/nanophage.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/nanophage.test.iml" filepath="$PROJECT_DIR$/.idea/modules/nanophage.test.iml" />
     </modules>
   </component>
 </project>

@@ -19,7 +19,7 @@ import org.slf4j.Logger;
 
 @Mod(Nanophage.MOD_ID)
 public class Nanophage {
-    public static final String MOD_ID = "minecraft";
+    public static final String MOD_ID = "nanophage";
     public static final Logger LOGGER = LogUtils.getLogger();
 
     public Nanophage() {

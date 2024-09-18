@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "nanophage:scrap_nugget"
+    }
+  },
+  "result": {
+    "item": "nanophage:scrap_ingot",
+    "count": 1
+  }
+}

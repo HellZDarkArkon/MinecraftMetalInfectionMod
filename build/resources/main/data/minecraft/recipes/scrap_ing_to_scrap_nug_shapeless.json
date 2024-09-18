@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "nanophage:scrap_ingot"
+    }
+  ],
+  "result": {
+    "item": "nanophage:scrap_nugget",
+    "count": 9
+  }
+}
