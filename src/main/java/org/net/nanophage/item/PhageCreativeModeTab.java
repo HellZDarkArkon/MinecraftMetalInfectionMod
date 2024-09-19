@@ -12,7 +12,7 @@ import org.net.nanophage.block.PhageBlocks;
 
 public class PhageCreativeModeTab {
     public static final DeferredRegister<CreativeModeTab> TABS =
-            DeferredRegister.create(Registries.CREATIVE_MODE_TAB, "minecraft");
+            DeferredRegister.create(Registries.CREATIVE_MODE_TAB, "nanophage");
 
     public static final RegistryObject<CreativeModeTab> NANOPHAGE_TAB = TABS.register("nanophage_tab",
             ()-> CreativeModeTab.builder().icon(()->new ItemStack(PhageItems.XENO_METAL_INGOT.get()))

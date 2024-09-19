@@ -25,7 +25,7 @@ displayName = "Nanophage" #mandatory
 # A URL for the "homepage" for this mod, displayed in the mod UI
 #displayURL="https://change.me.to.your.mods.homepage.example.invalid/" #optional
 # A file name (in the root of the mod JAR) containing a logo for display
-#logoFile="minecraft.png" #optional
+#logoFile="nanophage.png" #optional
 # A text field displayed in the mod UI
 #credits="Thanks for this example mod goes to Java" #optional
 # A text field displayed in the mod UI
@@ -47,7 +47,7 @@ modId = "forge" #mandatory
 # Does this dependency have to exist - if not, ordering below must be specified
 mandatory = true #mandatory
 # The version range of the dependency
-versionRange = "[47,)" #mandatory
+versionRange = "[47.0,)" #mandatory
 # An ordering relationship for the dependency - BEFORE or AFTER required if the dependency is not mandatory
 # BEFORE - This mod is loaded BEFORE the dependency
 # AFTER - This mod is loaded AFTER the dependency
@@ -57,7 +57,7 @@ side = "BOTH"# Here's another dependency
 [[dependencies."nanophage"]]
 modId = "minecraft"
 mandatory = true
-# This version range declares a minimum of the current minecraft version up to but not including the next major version
+# This version range declares a minimum of the current nanophage version up to but not including the next major version
 versionRange = "[1.20.1,1.21)"
 ordering = "NONE"
 side = "BOTH"

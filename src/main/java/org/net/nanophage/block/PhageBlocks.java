@@ -20,7 +20,7 @@ public class PhageBlocks {
             DeferredRegister.create(ForgeRegistries.BLOCKS, Nanophage.MOD_ID);
 
     public static final RegistryObject<Block> XENO_METAL_BLOCK = registerBlock("xeno_metal_block",
-            ()->new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
+            ()->new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(2,1).requiresCorrectToolForDrops()));
     public static final RegistryObject<Block> PHAGE_HEART = registerBlock("phage_heart",
             ()->new Block(BlockBehaviour.Properties.copy(Blocks.END_PORTAL_FRAME)));
 
