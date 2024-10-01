@@ -136,6 +136,35 @@ Adding Libraries to Inheritance
 Reading Input: C:\Users\maxim\IdeaProjects\MinecraftMetalInfectionMod\build\libs\nanophage-1.0-SNAPSHOT.jar
 Adding input to inheritance map
 Processing entries
+Conflicting propagated mapping for org/net/nanophage/block/custom/SkeletonBlock/use(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;Lnet/minecraft/world/phys/BlockHitResult;)Lnet/minecraft/world/InteractionResult; from net/minecraft/world/level/block/state/BlockBehaviour/use(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;Lnet/minecraft/world/phys/BlockHitResult;)Lnet/minecraft/world/InteractionResult;: use -> m_6227_
+Conflicting propagated mapping for org/net/nanophage/datagen/loot/PhageBlockLootTables/generate()V from net/minecraft/data/loot/BlockLootSubProvider/generate()V: generate -> m_245660_
+Conflicting propagated mapping for org/net/nanophage/datagen/PhageBlockTagGen/addTags(Lnet/minecraft/core/HolderLookup$Provider;)V from net/minecraft/data/tags/TagsProvider/addTags(Lnet/minecraft/core/HolderLookup$Provider;)V: addTags -> m_6577_
+Conflicting propagated mapping for org/net/nanophage/datagen/PhageBlockTagGen/getName()Ljava/lang/String; from net/minecraft/data/tags/TagsProvider/getName()Ljava/lang/String;: getName -> m_6055_
+Conflicting propagated mapping for net/minecraftforge/client/model/generators/BlockStateProvider/run(Lnet/minecraft/data/CachedOutput;)Ljava/util/concurrent/CompletableFuture; from net/minecraft/data/DataProvider/run(Lnet/minecraft/data/CachedOutput;)Ljava/util/concurrent/CompletableFuture;: run -> m_213708_
+Conflicting propagated mapping for net/minecraftforge/client/model/generators/BlockStateProvider/getName()Ljava/lang/String; from net/minecraft/data/DataProvider/getName()Ljava/lang/String;: getName -> m_6055_
+Conflicting propagated mapping for org/net/nanophage/datagen/PhageRecipeProvider/oreSmelting(Ljava/util/function/Consumer;Ljava/util/List;Lnet/minecraft/data/recipes/RecipeCategory;Lnet/minecraft/world/level/ItemLike;FILjava/lang/String;)V from net/minecraft/data/recipes/RecipeProvider/oreSmelting(Ljava/util/function/Consumer;Ljava/util/List;Lnet/minecraft/data/recipes/RecipeCategory;Lnet/minecraft/world/level/ItemLike;FILjava/lang/String;)V: oreSmelting -> m_246272_
+Conflicting propagated mapping for org/net/nanophage/datagen/PhageRecipeProvider/oreBlasting(Ljava/util/function/Consumer;Ljava/util/List;Lnet/minecraft/data/recipes/RecipeCategory;Lnet/minecraft/world/level/ItemLike;FILjava/lang/String;)V from net/minecraft/data/recipes/RecipeProvider/oreBlasting(Ljava/util/function/Consumer;Ljava/util/List;Lnet/minecraft/data/recipes/RecipeCategory;Lnet/minecraft/world/level/ItemLike;FILjava/lang/String;)V: oreBlasting -> m_245412_
+Conflicting propagated mapping for org/net/nanophage/datagen/PhageRecipeProvider/buildRecipes(Ljava/util/function/Consumer;)V from net/minecraft/data/recipes/RecipeProvider/buildRecipes(Ljava/util/function/Consumer;)V: buildRecipes -> m_245200_
+Conflicting propagated mapping for org/net/nanophage/datagen/PhageRecipeProvider/oreCooking(Ljava/util/function/Consumer;Lnet/minecraft/world/item/crafting/RecipeSerializer;Ljava/util/List;Lnet/minecraft/data/recipes/RecipeCategory;Lnet/minecraft/world/level/ItemLike;FILjava/lang/String;Ljava/lang/String;)V from net/minecraft/data/recipes/RecipeProvider/oreCooking(Ljava/util/function/Consumer;Lnet/minecraft/world/item/crafting/RecipeSerializer;Ljava/util/List;Lnet/minecraft/data/recipes/RecipeCategory;Lnet/minecraft/world/level/ItemLike;FILjava/lang/String;Ljava/lang/String;)V: oreCooking -> m_245809_
+Conflicting propagated mapping for net/minecraftforge/client/model/generators/ModelProvider/run(Lnet/minecraft/data/CachedOutput;)Ljava/util/concurrent/CompletableFuture; from net/minecraft/data/DataProvider/run(Lnet/minecraft/data/CachedOutput;)Ljava/util/concurrent/CompletableFuture;: run -> m_213708_
+Conflicting propagated mapping for net/minecraftforge/client/model/generators/ItemModelProvider/getName()Ljava/lang/String; from net/minecraft/data/DataProvider/getName()Ljava/lang/String;: getName -> m_6055_
+Conflicting propagated mapping for org/net/nanophage/datagen/PhageItemTagGen/addTags(Lnet/minecraft/core/HolderLookup$Provider;)V from net/minecraft/data/tags/TagsProvider/addTags(Lnet/minecraft/core/HolderLookup$Provider;)V: addTags -> m_6577_
+Conflicting propagated mapping for org/net/nanophage/datagen/PhageItemTagGen/getName()Ljava/lang/String; from net/minecraft/data/tags/TagsProvider/getName()Ljava/lang/String;: getName -> m_6055_
+Conflicting propagated mapping for org/net/nanophage/item/ModArmorMaterials/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/ArmorMaterial/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6230_
+Conflicting propagated mapping for org/net/nanophage/item/ModArmorMaterials/getEnchantmentValue()I from net/minecraft/world/item/ArmorMaterial/getEnchantmentValue()I: getEnchantmentValue -> m_6646_
+Conflicting propagated mapping for org/net/nanophage/item/ModArmorMaterials/getKnockbackResistance()F from net/minecraft/world/item/ArmorMaterial/getKnockbackResistance()F: getKnockbackResistance -> m_6649_
+Conflicting propagated mapping for org/net/nanophage/item/ModArmorMaterials/getToughness()F from net/minecraft/world/item/ArmorMaterial/getToughness()F: getToughness -> m_6651_
+Conflicting propagated mapping for org/net/nanophage/item/ModArmorMaterials/getName()Ljava/lang/String; from net/minecraft/world/item/ArmorMaterial/getName()Ljava/lang/String;: getName -> m_6082_
+Conflicting propagated mapping for org/net/nanophage/item/ModArmorMaterials/getDefenseForType(Lnet/minecraft/world/item/ArmorItem$Type;)I from net/minecraft/world/item/ArmorMaterial/getDefenseForType(Lnet/minecraft/world/item/ArmorItem$Type;)I: getDefenseForType -> m_7366_
+Conflicting propagated mapping for org/net/nanophage/item/ModArmorMaterials/getEquipSound()Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/item/ArmorMaterial/getEquipSound()Lnet/minecraft/sounds/SoundEvent;: getEquipSound -> m_7344_
+Conflicting propagated mapping for org/net/nanophage/item/ModArmorMaterials/getDurabilityForType(Lnet/minecraft/world/item/ArmorItem$Type;)I from net/minecraft/world/item/ArmorMaterial/getDurabilityForType(Lnet/minecraft/world/item/ArmorItem$Type;)I: getDurabilityForType -> m_266425_
+Conflicting propagated mapping for net/minecraft/world/entity/LivingEntity/lambda$addAdditionalSaveData$3(Lnet/minecraft/nbt/CompoundTag;Lnet/minecraft/nbt/Tag;)V from net/minecraft/world/entity/player/Player/lambda$addAdditionalSaveData$3(Lnet/minecraft/nbt/CompoundTag;Lnet/minecraft/nbt/Tag;)V: lambda$addAdditionalSaveData$3 -> m_219754_
+Conflicting propagated mapping for net/minecraftforge/common/ForgeTier/getUses()I from net/minecraft/world/item/Tier/getUses()I: getUses -> m_6609_
+Conflicting propagated mapping for net/minecraftforge/common/ForgeTier/getSpeed()F from net/minecraft/world/item/Tier/getSpeed()F: getSpeed -> m_6624_
+Conflicting propagated mapping for net/minecraftforge/common/ForgeTier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/Tier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6282_
+Conflicting propagated mapping for net/minecraftforge/common/ForgeTier/getEnchantmentValue()I from net/minecraft/world/item/Tier/getEnchantmentValue()I: getEnchantmentValue -> m_6601_
+Conflicting propagated mapping for net/minecraftforge/common/ForgeTier/getLevel()I from net/minecraft/world/item/Tier/getLevel()I: getLevel -> m_6604_
+Conflicting propagated mapping for net/minecraftforge/common/ForgeTier/getAttackDamageBonus()F from net/minecraft/world/item/Tier/getAttackDamageBonus()F: getAttackDamageBonus -> m_6631_
 Conflicting propagated mapping for net/minecraftforge/event/BuildCreativeModeTabContentsEvent/accept(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/CreativeModeTab$TabVisibility;)V from net/minecraft/world/item/CreativeModeTab$Output/accept(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/CreativeModeTab$TabVisibility;)V: accept -> m_246267_
 Adding extras
 Sorting
@@ -146,24 +175,16 @@ Writing Output: C:\Users\maxim\IdeaProjects\MinecraftMetalInfectionMod\build\reo
   assets/
   assets/nanophage/
   assets/nanophage/blockstates/
-  assets/nanophage/blockstates/phage_heart.json
   assets/nanophage/blockstates/scrap_block.json
-  assets/nanophage/blockstates/xeno_metal_block.json
   assets/nanophage/lang/
   assets/nanophage/lang/en_us.json
   assets/nanophage/models/
   assets/nanophage/models/block/
-  assets/nanophage/models/block/phage_heart.json
   assets/nanophage/models/block/scrap_block.json
-  assets/nanophage/models/block/xeno_metal_block.json
   assets/nanophage/models/item/
-  assets/nanophage/models/item/phage_heart.json
   assets/nanophage/models/item/scrap_block.json
   assets/nanophage/models/item/scrap_ingot.json
   assets/nanophage/models/item/scrap_nugget.json
-  assets/nanophage/models/item/xeno_metal_block.json
-  assets/nanophage/models/item/xeno_metal_ingot.json
-  assets/nanophage/models/item/xeno_metal_nugget.json
   assets/nanophage/textures/
   assets/nanophage/textures/block/
   assets/nanophage/textures/block/scrap_block.png
@@ -174,25 +195,13 @@ Writing Output: C:\Users\maxim\IdeaProjects\MinecraftMetalInfectionMod\build\reo
   assets/nanophage/textures/item/unused_item_tex.png
   assets/nanophage/textures/item/xeno_metal_ingot.png
   data/
-  data/forge/
-  data/forge/tags/
-  data/forge/tags/blocks/
-  data/forge/tags/blocks/needs_netherite_tool.json
   data/minecraft/
   data/minecraft/loot_tables/
   data/minecraft/loot_tables/blocks/
   data/minecraft/loot_tables/blocks/scrap_block.json
-  data/minecraft/loot_tables/blocks/xeno_metal_block.json
   data/minecraft/recipes/
   data/minecraft/recipes/scrap_ing_to_scrap_nug_shapeless.json
   data/minecraft/recipes/scrap_nug_to_scrap_ing_shaped.json
-  data/minecraft/recipes/xeno_metal_ingot_to_nugget_shapeless.json
-  data/minecraft/recipes/xeno_metal_nugget_to_ingot_shaped.json
-  data/minecraft/tags/
-  data/minecraft/tags/blocks/
-  data/minecraft/tags/blocks/mineable/
-  data/minecraft/tags/blocks/mineable/pickaxe.json
-  data/minecraft/tags/blocks/needs_diamond_tool.json
   org/
   org/net/
   org/net/nanophage/
@@ -201,9 +210,29 @@ Writing Output: C:\Users\maxim\IdeaProjects\MinecraftMetalInfectionMod\build\reo
   org/net/nanophage/Nanophage.class
   org/net/nanophage/block/
   org/net/nanophage/block/PhageBlocks.class
+  org/net/nanophage/block/custom/
+  org/net/nanophage/block/custom/SkeletonBlock.class
   org/net/nanophage/compat/
   org/net/nanophage/compat/JEINanophagePlugin.class
+  org/net/nanophage/datagen/
+  org/net/nanophage/datagen/DataGenerators.class
+  org/net/nanophage/datagen/PhageBlockStateProvider.class
+  org/net/nanophage/datagen/PhageBlockTagGen.class
+  org/net/nanophage/datagen/PhageItemModelProvider.class
+  org/net/nanophage/datagen/PhageItemTagGen.class
+  org/net/nanophage/datagen/PhageLootTableProvider.class
+  org/net/nanophage/datagen/PhageRecipeProvider.class
+  org/net/nanophage/datagen/loot/
+  org/net/nanophage/datagen/loot/PhageBlockLootTables.class
   org/net/nanophage/item/
+  org/net/nanophage/item/ModArmorMaterials.class
   org/net/nanophage/item/PhageCreativeModeTab.class
   org/net/nanophage/item/PhageItems.class
+  org/net/nanophage/item/PhageToolTiers.class
+  org/net/nanophage/item/custom/
+  org/net/nanophage/item/custom/SkeletonItem.class
+  org/net/nanophage/util/
+  org/net/nanophage/util/PhageTags$Blocks.class
+  org/net/nanophage/util/PhageTags$Items.class
+  org/net/nanophage/util/PhageTags.class
   pack.mcmeta

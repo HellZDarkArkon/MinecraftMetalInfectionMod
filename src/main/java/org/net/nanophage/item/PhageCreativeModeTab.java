@@ -21,6 +21,12 @@ public class PhageCreativeModeTab {
                         pOutput.accept(PhageItems.XENO_METAL_INGOT.get());
                         pOutput.accept(PhageItems.XENO_METAL_NUGGET.get());
 
+                        pOutput.accept(PhageItems.XENO_METAL_PICKAXE.get());
+                        pOutput.accept(PhageItems.XENO_METAL_AXE.get());
+                        pOutput.accept(PhageItems.XENO_METAL_SHOVEL.get());
+                        pOutput.accept(PhageItems.XENO_METAL_HOE.get());
+                        pOutput.accept(PhageItems.XENO_METAL_SWORD.get());
+
                         pOutput.accept(PhageBlocks.XENO_METAL_BLOCK.get());
                         pOutput.accept(PhageBlocks.PHAGE_HEART.get());
 

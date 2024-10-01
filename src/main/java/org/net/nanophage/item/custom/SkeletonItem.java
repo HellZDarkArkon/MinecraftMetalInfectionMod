@@ -8,11 +8,11 @@ public class SkeletonItem extends Item {
     public SkeletonItem(Properties pProp) {
         super(pProp);
     }
-
-    //Register in PhageItems.tab
-
-    @Override
-    public InteractionResult useOn(UseOnContext pContext) {
-
-    }
+//
+//    //Register in PhageItems.tab
+//
+//    @Override
+//    public InteractionResult useOn(UseOnContext pContext) {
+//
+//    }
 }
