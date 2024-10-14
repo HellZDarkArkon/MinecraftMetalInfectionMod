@@ -4,6 +4,9 @@ pluginManagement {
         maven {
             name = 'MinecraftForge'
             url = 'https://maven.minecraftforge.net/'
+
+            name = 'GeckoLib'
+            url = 'https://repo.spongepowered.org/repository/maven-public/'
         }
     }
 }

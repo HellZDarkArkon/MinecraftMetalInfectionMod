@@ -2,6 +2,17 @@
   "item.nanophage.xeno_metal_ingot": "Ingot of Xeno Metal",
   "item.nanophage.xeno_metal_nugget": "Nugget of Xeno Metal",
 
+  "item.nanophage.xeno_metal_sword": "Xeno Metal Sword",
+  "item.nanophage.xeno_metal_pickaxe": "Xeno Metal Pickaxe",
+  "item.nanophage.xeno_metal_axe": "Xeno Metal Axe",
+  "item.nanophage.xeno_metal_shovel": "Xeno Metal Shovel",
+  "item.nanophage.xeno_metal_hoe": "Xeno Metal Hoe",
+
+  "item.nanophage.xeno_metal_helm": "Xeno Metal Helmet",
+  "item.nanophage.xeno_metal_chestplate": "Xeno Metal Chestplate",
+  "item.nanophage.xeno_metal_leggings": "Xeno Metal Leggings",
+  "item.nanophage.xeno_metal_boots": "Xeno Metal Boots",
+
   "block.nanophage.xeno_metal_block": "Xeno Metal Block",
   "block.nanophage.phage_heart": "The Phage Heart",
 

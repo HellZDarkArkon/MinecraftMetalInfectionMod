@@ -30,6 +30,11 @@ public class PhageItemTagGen extends ItemTagsProvider {
                 .add(PhageItems.XENO_METAL_SWORD.get());
         this.tag(ItemTags.HOES)
                 .add(PhageItems.XENO_METAL_HOE.get());
+        this.tag(ItemTags.TRIMMABLE_ARMOR)
+                .add(PhageItems.XENO_METAL_HELM.get())
+                .add(PhageItems.XENO_METAL_CHESTPLATE.get())
+                .add(PhageItems.XENO_METAL_LEGGINGS.get())
+                .add(PhageItems.XENO_METAL_BOOTS.get());
     }
 
     @Override

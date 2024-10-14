@@ -1,7 +1,15 @@
 package org.net.nanophage.datagen;
 
+import net.minecraft.client.resources.model.ModelResourceLocation;
 import net.minecraft.data.PackOutput;
+import net.minecraft.data.models.ItemModelGenerators;
+import net.minecraft.data.models.model.ModelLocationUtils;
+import net.minecraft.data.models.model.ModelTemplates;
+import net.minecraft.data.models.model.TextureMapping;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.world.item.ArmorItem;
+import net.minecraft.world.item.ArmorMaterial;
+import net.minecraft.world.item.ArmorMaterials;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraftforge.client.model.generators.ItemModelBuilder;
@@ -27,6 +35,8 @@ public class PhageItemModelProvider extends ItemModelProvider {
         handheldItem(PhageItems.XENO_METAL_SHOVEL);
         handheldItem(PhageItems.XENO_METAL_HOE);
         handheldItem(PhageItems.XENO_METAL_SWORD);
+
+
     }
 
     public void fenceItem(RegistryObject<Block> block, RegistryObject<Block> baseBlock) {
@@ -66,4 +76,26 @@ public class PhageItemModelProvider extends ItemModelProvider {
                 .texture("layer0", new ResourceLocation(Nanophage.MOD_ID, "item/"
                 + item.getId().getPath()));
     }
+
+//    private void generateArmorTrim(ArmorItem pArmor) {
+//        ResourceLocation resourceLocation = ModelLocationUtils.getModelLocation(pArmor);
+//        ResourceLocation resourceLocation1 = TextureMapping.getItemTexture(pArmor);
+//        ResourceLocation resourceLocation2 = TextureMapping.getItemTexture(pArmor, "_overlay");
+//
+//        if(pArmor.getMaterial() == ArmorMaterials.LEATHER) {
+//            ModelTemplates.TWO_LAYERED_ITEM.create(resourceLocation, TextureMapping.layered(resourceLocation1, resourceLocation2),
+//                    this.output, (x, y) -> {
+//                        return this.generateBaseArmorTrimTemplate(x, y, pArmor.getMaterial());
+//                    });
+//        } else {
+//            ModelTemplates.FLAT_ITEM.create(resourceLocation, TextureMapping.layer0(resourceLocation1), this.output,
+//                    (x,y)->{
+//                return this.generateBaseArmorTrimTemplate(x,y, pArmor.getMaterial());
+//                    });
+//        }
+//
+//        for(ItemModelGenerators.TrimModelData itemmodelgenerators$trimmodeldata : GENERATED_TRIM_MODELS) {
+//            String s =
+//        }
+//    }
 }
