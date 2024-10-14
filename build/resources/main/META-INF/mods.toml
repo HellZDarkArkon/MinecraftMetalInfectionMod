@@ -61,3 +61,9 @@ mandatory = true
 versionRange = "[1.20.1,1.21)"
 ordering = "NONE"
 side = "BOTH"
+[[dependencies."nanophage"]]
+modId = "geckolib"
+mandatory = true
+versionRange = "4.4.9"
+ordering = "AFTER"
+side = "BOTH"
