@@ -16,7 +16,8 @@ public class PhageBlockLootTables extends BlockLootSubProvider {
     @Override
     protected void generate() {
         this.dropSelf(PhageBlocks.XENO_METAL_BLOCK.get());
-        this.dropSelf(PhageBlocks.PHAGE_HEART.get());
+        this.dropSelf(PhageBlocks.XENO_METAL_SLAB.get());
+        this.dropSelf(PhageBlocks.XENO_METAL_STAIRS.get());
     }
 
     @Override

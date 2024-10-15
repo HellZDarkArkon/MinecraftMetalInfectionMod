@@ -29,15 +29,21 @@
     },
     "done": true
   },
-  "nanophage:recipes/misc/xeno_metal_block": {
+  "minecraft:recipes/misc/xeno_metal_nuggets_from_xeno_metal_ingot": {
     "criteria": {
-      "has_xeno_metal": "2024-10-15 07:58:37 -0400"
+      "has_xeno_metal_ingot": "2024-10-15 18:52:01 -0400"
     },
     "done": true
   },
-  "nanophage:recipes/misc/xeno_metal_ingot": {
+  "minecraft:recipes/misc/xeno_metal_block_from_xeno_metal_ingot": {
     "criteria": {
-      "has_xeno_metal_block": "2024-10-15 07:58:37 -0400"
+      "has_xeno_metal": "2024-10-15 18:52:01 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2024-10-15 18:53:00 -0400"
     },
     "done": true
   },

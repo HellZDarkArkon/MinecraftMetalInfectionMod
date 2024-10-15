@@ -1,3 +1,4 @@
-// 1.20.1	2024-09-30T21:00:32.975234	Loot Tables
-11ea97e5f0b92b2c3f36fddaca35232d487a52b5 data/nanophage/loot_tables/blocks/phage_heart.json
+// 1.20.1	2024-10-15T18:49:20.9570363	Loot Tables
 957680b584aad18da5896e14293044e93c2c3c75 data/nanophage/loot_tables/blocks/xeno_metal_block.json
+e7550b95b453e8184014c40d884bf9c7104d68a1 data/nanophage/loot_tables/blocks/xeno_metal_slab.json
+30cd2d7c8beccbc7869c31952fa52a275f4173eb data/nanophage/loot_tables/blocks/xeno_metal_stairs.json

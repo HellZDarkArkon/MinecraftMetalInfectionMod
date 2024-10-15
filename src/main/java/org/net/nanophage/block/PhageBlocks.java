@@ -3,8 +3,7 @@ package org.net.nanophage.block;
 
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -21,8 +20,11 @@ public class PhageBlocks {
 
     public static final RegistryObject<Block> XENO_METAL_BLOCK = registerBlock("xeno_metal_block",
             ()->new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(2,1).requiresCorrectToolForDrops()));
-    public static final RegistryObject<Block> PHAGE_HEART = registerBlock("phage_heart",
-            ()->new Block(BlockBehaviour.Properties.copy(Blocks.END_PORTAL_FRAME)));
+    public static final RegistryObject<Block> XENO_METAL_STAIRS = registerBlock("xeno_metal_stairs",
+            ()->new StairBlock(()->PhageBlocks.XENO_METAL_BLOCK.get().defaultBlockState(),
+                    BlockBehaviour.Properties.copy(Blocks.CUT_COPPER_STAIRS).sound(SoundType.METAL)));
+    public static final RegistryObject<Block> XENO_METAL_SLAB = registerBlock("xeno_metal_slab",
+            ()->new SlabBlock(BlockBehaviour.Properties.copy(Blocks.GRANITE_SLAB).sound(SoundType.METAL)));
 
     private static <T extends Block>RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = PHAGE_BLOCKS.register(name, block);

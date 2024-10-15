@@ -27,11 +27,6 @@ public class PhageItemModelProvider extends ItemModelProvider {
         handheldItem(PhageItems.XENO_METAL_SHOVEL);
         handheldItem(PhageItems.XENO_METAL_HOE);
         handheldItem(PhageItems.XENO_METAL_SWORD);
-
-        simpleItem(PhageItems.XENO_METAL_HELMET);
-        simpleItem(PhageItems.XENO_METAL_CHESTPLATE);
-        simpleItem(PhageItems.XENO_METAL_LEGGINGS);
-        simpleItem(PhageItems.XENO_METAL_BOOTS);
     }
 
     public void fenceItem(RegistryObject<Block> block, RegistryObject<Block> baseBlock) {

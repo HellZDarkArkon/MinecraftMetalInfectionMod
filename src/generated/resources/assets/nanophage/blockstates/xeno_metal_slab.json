@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "nanophage:block/xeno_metal_slab"
+    },
+    "type=double": {
+      "model": "nanophage:block/xeno_metal_block"
+    },
+    "type=top": {
+      "model": "nanophage:block/xeno_metal_slab_top"
+    }
+  }
+}

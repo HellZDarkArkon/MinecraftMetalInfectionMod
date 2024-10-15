@@ -1,4 +1,4 @@
-C:\Users\maxim\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.20.1-47.3.10_mapped_official_1.20.1\forge-1.20.1-47.3.10_mapped_official_1.20.1.jar
+C:\Users\maxim\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.20.1-47.3.10_mapped_official_1.20.1\forge-1.20.1-47.3.10_mapped_official_1.20.1-recomp.jar
 C:\Users\maxim\.gradle\caches\forge_gradle\minecraft_repo\versions\1.20.1\client-extra.jar
 C:\Users\maxim\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlearlydisplay\1.20.1-47.3.10\1cd7230664c7e7e200f90b0eacea7a193487d81c\fmlearlydisplay-1.20.1-47.3.10.jar
 C:\Users\maxim\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.3.10\7a15037366722893d76a3d0b2e9d1fd13a63a22d\javafmllanguage-1.20.1-47.3.10.jar

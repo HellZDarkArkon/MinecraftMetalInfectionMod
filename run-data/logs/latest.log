@@ -1,32 +1,32 @@
-[15okt.2024 07:57:19.042] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgedatauserdev, --assetIndex, 5, --assetsDir, C:\Users\maxim\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 47.3.10, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --mod, nanophage, --all, --output, A:\Programming\IntelliJ\Minestuck\MinecraftMetalInfectionMod\src\generated\resources, --existing, A:\Programming\IntelliJ\Minestuck\MinecraftMetalInfectionMod\src\main\resources]
-[15okt.2024 07:57:19.047] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.12 by Eclipse Adoptium; OS Windows 10 arch amd64 version 10.0
-[15okt.2024 07:57:19.163] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgedatauserdev
-[15okt.2024 07:57:19.210] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/maxim/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23128!/ Service=ModLauncher Env=CLIENT
-[15okt.2024 07:57:19.498] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\maxim\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.3.10\7a15037366722893d76a3d0b2e9d1fd13a63a22d\javafmllanguage-1.20.1-47.3.10.jar is missing mods.toml file
-[15okt.2024 07:57:19.502] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\maxim\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.3.10\e67d9b3451d64ccc812cbbd33c066bd3ebbf2167\lowcodelanguage-1.20.1-47.3.10.jar is missing mods.toml file
-[15okt.2024 07:57:19.506] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\maxim\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.3.10\2023f9726a509c5ba5a925cac934944066093de8\mclanguage-1.20.1-47.3.10.jar is missing mods.toml file
-[15okt.2024 07:57:19.510] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\maxim\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.3.10\523aa0cd9a773b2b56268d8689b2fb5c1f072941\fmlcore-1.20.1-47.3.10.jar is missing mods.toml file
-[15okt.2024 07:57:19.654] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 1 dependencies adding them to mods collection
-[15okt.2024 07:57:20.882] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[15okt.2024 07:57:20.886] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgedatauserdev' with arguments [--gameDir, ., --assetsDir, C:\Users\maxim\.gradle\caches\forge_gradle\assets, --assetIndex, 5, --mod, nanophage, --all, --output, A:\Programming\IntelliJ\Minestuck\MinecraftMetalInfectionMod\src\generated\resources, --existing, A:\Programming\IntelliJ\Minestuck\MinecraftMetalInfectionMod\src\main\resources]
-[15okt.2024 07:57:21.669] [main/INFO] [mixin/]: Remapping refMap geckolib.refmap.json using A:\Programming\IntelliJ\Minestuck\MinecraftMetalInfectionMod\build\createSrgToMcp\output.srg
-[15okt.2024 07:57:21.958] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [nanophage]
-[15okt.2024 07:57:25.577] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.10, for MC 1.20.1 with MCP 20230612.114412
-[15okt.2024 07:57:25.578] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.10 Initialized
-[15okt.2024 07:57:25.661] [modloading-worker-0/WARN] [software.bernie.geckolib.GeckoLib/]: Minecraft.getInstance() was null, could not register reload listeners
-[15okt.2024 07:57:25.788] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager...
-[15okt.2024 07:57:25.796] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager took 5.256 ms
-[15okt.2024 07:57:26.259] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/maxim/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.3.10_mapped_official_1.20.1/forge-1.20.1-47.3.10_mapped_official_1.20.1.jar%23191!/assets/.mcassetsroot' uses unexpected schema
-[15okt.2024 07:57:26.260] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/maxim/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.3.10_mapped_official_1.20.1/forge-1.20.1-47.3.10_mapped_official_1.20.1.jar%23191!/data/.mcassetsroot' uses unexpected schema
-[15okt.2024 07:57:26.423] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
-[15okt.2024 07:57:26.451] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 27 ms
-[15okt.2024 07:57:26.451] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Loot Tables
-[15okt.2024 07:57:26.472] [main/INFO] [net.minecraft.data.DataGenerator/]: Loot Tables finished after 21 ms
-[15okt.2024 07:57:26.472] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block Tags
-[15okt.2024 07:57:26.484] [main/INFO] [net.minecraft.data.DataGenerator/]: Block Tags finished after 11 ms
-[15okt.2024 07:57:26.484] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: nanophage
-[15okt.2024 07:57:26.495] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: nanophage finished after 10 ms
-[15okt.2024 07:57:26.495] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block States: nanophage
-[15okt.2024 07:57:26.641] [main/INFO] [net.minecraft.data.DataGenerator/]: Block States: nanophage finished after 146 ms
-[15okt.2024 07:57:26.642] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 219 ms
-[15okt.2024 07:57:26.648] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 45, old count: 21, new count: 44, removed stale: 2, written: 22
+[15Oct2024 18:49:00.929] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgedatauserdev, --assetIndex, 5, --assetsDir, C:\Users\maxim\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 47.3.10, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --mod, nanophage, --all, --output, C:\Users\maxim\IdeaProjects\MinecraftMetalInfectionMod\src\generated\resources, --existing, C:\Users\maxim\IdeaProjects\MinecraftMetalInfectionMod\src\main\resources]
+[15Oct2024 18:49:00.940] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.12 by Eclipse Adoptium; OS Windows 10 arch amd64 version 10.0
+[15Oct2024 18:49:01.165] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgedatauserdev
+[15Oct2024 18:49:01.291] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/maxim/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23128!/ Service=ModLauncher Env=CLIENT
+[15Oct2024 18:49:01.952] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\maxim\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.3.10\7a15037366722893d76a3d0b2e9d1fd13a63a22d\javafmllanguage-1.20.1-47.3.10.jar is missing mods.toml file
+[15Oct2024 18:49:01.959] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\maxim\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.3.10\e67d9b3451d64ccc812cbbd33c066bd3ebbf2167\lowcodelanguage-1.20.1-47.3.10.jar is missing mods.toml file
+[15Oct2024 18:49:01.967] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\maxim\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.3.10\2023f9726a509c5ba5a925cac934944066093de8\mclanguage-1.20.1-47.3.10.jar is missing mods.toml file
+[15Oct2024 18:49:01.977] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\maxim\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.3.10\523aa0cd9a773b2b56268d8689b2fb5c1f072941\fmlcore-1.20.1-47.3.10.jar is missing mods.toml file
+[15Oct2024 18:49:02.391] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 1 dependencies adding them to mods collection
+[15Oct2024 18:49:05.725] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[15Oct2024 18:49:05.734] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgedatauserdev' with arguments [--gameDir, ., --assetsDir, C:\Users\maxim\.gradle\caches\forge_gradle\assets, --assetIndex, 5, --mod, nanophage, --all, --output, C:\Users\maxim\IdeaProjects\MinecraftMetalInfectionMod\src\generated\resources, --existing, C:\Users\maxim\IdeaProjects\MinecraftMetalInfectionMod\src\main\resources]
+[15Oct2024 18:49:06.633] [main/INFO] [mixin/]: Remapping refMap geckolib.refmap.json using C:\Users\maxim\IdeaProjects\MinecraftMetalInfectionMod\build\createSrgToMcp\output.srg
+[15Oct2024 18:49:07.491] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [nanophage]
+[15Oct2024 18:49:18.014] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.10, for MC 1.20.1 with MCP 20230612.114412
+[15Oct2024 18:49:18.039] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.10 Initialized
+[15Oct2024 18:49:18.177] [modloading-worker-0/WARN] [software.bernie.geckolib.GeckoLib/]: Minecraft.getInstance() was null, could not register reload listeners
+[15Oct2024 18:49:18.786] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager...
+[15Oct2024 18:49:18.814] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager took 10.22 ms
+[15Oct2024 18:49:19.747] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/maxim/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.3.10_mapped_official_1.20.1/forge-1.20.1-47.3.10_mapped_official_1.20.1-recomp.jar%23191!/assets/.mcassetsroot' uses unexpected schema
+[15Oct2024 18:49:19.748] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/maxim/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.3.10_mapped_official_1.20.1/forge-1.20.1-47.3.10_mapped_official_1.20.1-recomp.jar%23191!/data/.mcassetsroot' uses unexpected schema
+[15Oct2024 18:49:20.086] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
+[15Oct2024 18:49:20.241] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 154 ms
+[15Oct2024 18:49:20.242] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Loot Tables
+[15Oct2024 18:49:20.320] [main/INFO] [net.minecraft.data.DataGenerator/]: Loot Tables finished after 78 ms
+[15Oct2024 18:49:20.320] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block Tags
+[15Oct2024 18:49:20.579] [main/INFO] [net.minecraft.data.DataGenerator/]: Block Tags finished after 258 ms
+[15Oct2024 18:49:20.579] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: nanophage
+[15Oct2024 18:49:20.598] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: nanophage finished after 17 ms
+[15Oct2024 18:49:20.598] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block States: nanophage
+[15Oct2024 18:49:20.952] [main/INFO] [net.minecraft.data.DataGenerator/]: Block States: nanophage finished after 354 ms
+[15Oct2024 18:49:20.952] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 866 ms
+[15Oct2024 18:49:20.994] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 59, old count: 43, new count: 51, removed stale: 9, written: 23

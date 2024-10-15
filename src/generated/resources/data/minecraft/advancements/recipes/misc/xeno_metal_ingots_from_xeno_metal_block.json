@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:xeno_metal_ingots_from_xeno_metal_block"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_xeno_metal_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "nanophage:xeno_metal_block"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_xeno_metal_block",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:xeno_metal_ingots_from_xeno_metal_block"
+    ]
+  },
+  "sends_telemetry_event": false
+}

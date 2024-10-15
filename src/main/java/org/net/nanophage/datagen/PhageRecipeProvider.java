@@ -25,39 +25,48 @@ public class PhageRecipeProvider extends RecipeProvider implements IConditionBui
     @Override
     protected void buildRecipes (Consumer<FinishedRecipe> pWriter) {
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC,
-                PhageBlocks.XENO_METAL_BLOCK.get())
+                PhageBlocks.XENO_METAL_BLOCK.get()) //Xeno Metal Block
                 .pattern("###")
                 .pattern("###")
                 .pattern("###")
                 .define('#', PhageItems.XENO_METAL_INGOT.get())
                 .unlockedBy("has_xeno_metal", inventoryTrigger(ItemPredicate.Builder.item()
-                        .of(PhageItems.XENO_METAL_INGOT.get()).build())).save(pWriter);
+                        .of(PhageItems.XENO_METAL_INGOT.get()).build())).save(pWriter,
+                        "xeno_metal_block_from_xeno_metal_ingot");
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC,
+                PhageItems.XENO_METAL_INGOT.get())
+                        .pattern("###").pattern("###").pattern("###")
+                        .define('#', PhageItems.XENO_METAL_NUGGET.get())
+                                .unlockedBy("has_xeno_metal", inventoryTrigger(ItemPredicate.Builder.item()
+                                        .of(PhageItems.XENO_METAL_NUGGET.get()).build())).save(pWriter,
+                        "xeno_metal_ingot_from_xeno_metal_nuggets");
         ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS,
-                PhageItems.XENO_METAL_PICKAXE.get())
+                PhageItems.XENO_METAL_PICKAXE.get()) //Xeno Metal Pickaxe
                         .pattern("###")
                                 .pattern(" @ ").pattern(" @ ")
                         .define('#',PhageItems.XENO_METAL_INGOT.get()).define('@', Items.STICK)
                                 .unlockedBy("has_xeno_metal", inventoryTrigger(ItemPredicate.Builder.item()
-                                        .of(PhageItems.XENO_METAL_PICKAXE.get()).build())).save(pWriter);
+                                        .of(PhageItems.XENO_METAL_PICKAXE.get()).build())).save(pWriter,
+                        "xeno_metal_pickaxe");
         ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS,
-                PhageItems.XENO_METAL_AXE.get())
+                PhageItems.XENO_METAL_AXE.get()) //Xeno Metal Axe
                         .pattern(" ##").pattern(" @#").pattern(" @ ")
                         .define('#', PhageItems.XENO_METAL_INGOT.get()).define('@', Items.STICK)
                 .unlockedBy("has_xeno_metal", inventoryTrigger(ItemPredicate.Builder.item().of(PhageItems.XENO_METAL_AXE.get()).build())).save(pWriter);
         ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT,
-                PhageItems.XENO_METAL_SWORD.get())
+                PhageItems.XENO_METAL_SWORD.get()) //Xeno Metal Sword
                         .pattern(" # ").pattern(" # ").pattern(" @ ")
                         .define('#', PhageItems.XENO_METAL_INGOT.get()).define('@', Items.STICK)
                         .unlockedBy("has_xeno_metal", inventoryTrigger(ItemPredicate.Builder.item().of(PhageItems.XENO_METAL_SWORD.get())
                                 .build())).save(pWriter);
         ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS,
-                        PhageItems.XENO_METAL_SHOVEL.get())
+                        PhageItems.XENO_METAL_SHOVEL.get()) //Xeno Metal Shovel
                 .pattern(" # ").pattern(" @ ").pattern(" @ ")
                 .define('#', PhageItems.XENO_METAL_INGOT.get()).define('@', Items.STICK)
                 .unlockedBy("has_xeno_metal", inventoryTrigger(ItemPredicate.Builder.item().of(PhageItems.XENO_METAL_SWORD.get())
                         .build())).save(pWriter);
         ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS,
-                        PhageItems.XENO_METAL_HOE.get())
+                        PhageItems.XENO_METAL_HOE.get()) //Xeno Metal Hoe
                 .pattern("## ").pattern(" @ ").pattern(" @ ")
                 .define('#', PhageItems.XENO_METAL_INGOT.get()).define('@', Items.STICK)
                 .unlockedBy("has_xeno_metal", inventoryTrigger(ItemPredicate.Builder.item().of(PhageItems.XENO_METAL_SWORD.get())
@@ -92,7 +101,15 @@ public class PhageRecipeProvider extends RecipeProvider implements IConditionBui
                 .requires(PhageBlocks.XENO_METAL_BLOCK.get())
                 .unlockedBy("has_xeno_metal_block",
                         inventoryTrigger(ItemPredicate.Builder.item()
-                                .of(PhageBlocks.XENO_METAL_BLOCK.get()).build())).save(pWriter);
+                                .of(PhageBlocks.XENO_METAL_BLOCK.get()).build())).save(pWriter,
+                        "xeno_metal_ingots_from_xeno_metal_block");
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC,
+                PhageItems.XENO_METAL_NUGGET.get(), 9)
+                .requires(PhageItems.XENO_METAL_INGOT.get())
+                .unlockedBy("has_xeno_metal_ingot",
+                        inventoryTrigger(ItemPredicate.Builder.item()
+                                .of(PhageItems.XENO_METAL_INGOT.get()).build())).save(pWriter,
+                        "xeno_metal_nuggets_from_xeno_metal_ingot");
 
     }
 

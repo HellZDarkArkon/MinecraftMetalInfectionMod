@@ -21,11 +21,9 @@ public class PhageBlockTagGen extends BlockTagsProvider {
     @Override
     protected void addTags(HolderLookup.Provider pProvider) {
         this.tag(BlockTags.MINEABLE_WITH_PICKAXE)
-                .add(PhageBlocks.XENO_METAL_BLOCK.get())
-                .add(PhageBlocks.PHAGE_HEART.get());
+                .add(PhageBlocks.XENO_METAL_BLOCK.get());
         this.tag(PhageTags.Blocks.NEEDS_XENO_METAL_TOOL)
-                .add(PhageBlocks.XENO_METAL_BLOCK.get())
-                .add(PhageBlocks.PHAGE_HEART.get());
+                .add(PhageBlocks.XENO_METAL_BLOCK.get());
     }
 
     @Override

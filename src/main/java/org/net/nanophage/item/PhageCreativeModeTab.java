@@ -38,7 +38,8 @@ public class PhageCreativeModeTab {
                         pOutput.accept(PhageItems.XENO_METAL_BOOTS.get());
 
                         pOutput.accept(PhageBlocks.XENO_METAL_BLOCK.get());
-                        pOutput.accept(PhageBlocks.PHAGE_HEART.get());
+                        pOutput.accept(PhageBlocks.XENO_METAL_STAIRS.get());
+                        pOutput.accept(PhageBlocks.XENO_METAL_SLAB.get());
 
                     }).build());
 

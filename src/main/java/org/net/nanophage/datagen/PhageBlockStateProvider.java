@@ -2,6 +2,8 @@ package org.net.nanophage.datagen;
 
 import net.minecraft.data.PackOutput;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.SlabBlock;
+import net.minecraft.world.level.block.StairBlock;
 import net.minecraft.world.level.block.state.predicate.BlockStatePredicate;
 import net.minecraftforge.client.model.generators.BlockStateProvider;
 import net.minecraftforge.client.model.generators.ModelFile;
@@ -19,7 +21,15 @@ public class PhageBlockStateProvider extends BlockStateProvider {
     @Override
     protected void registerStatesAndModels() {
         blockWithItem(PhageBlocks.XENO_METAL_BLOCK);
-        blockWithItem(PhageBlocks.PHAGE_HEART);
+
+        stairsBlock((StairBlock) PhageBlocks.XENO_METAL_STAIRS.get(),
+                blockTexture(PhageBlocks.XENO_METAL_BLOCK.get()));
+        slabBlock((SlabBlock) PhageBlocks.XENO_METAL_SLAB.get(),
+                blockTexture(PhageBlocks.XENO_METAL_BLOCK.get()),
+                blockTexture(PhageBlocks.XENO_METAL_BLOCK.get()));
+
+        blockItem(PhageBlocks.XENO_METAL_STAIRS);
+        blockItem(PhageBlocks.XENO_METAL_SLAB);
 
 
     }

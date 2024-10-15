@@ -1,7 +1,13 @@
-// 1.20.1	2024-09-30T21:00:32.9842106	Block States: nanophage
-d9ca83d8a6baa095e80556440c0bfc2a0e828705 assets/nanophage/blockstates/phage_heart.json
+// 1.20.1	2024-10-15T18:49:20.9633461	Block States: nanophage
 4505e6fbfb6c75145b51ecb4711228511fea3671 assets/nanophage/blockstates/xeno_metal_block.json
-8c1a3e75f7eb27a91a5dbec66ce093652bbd95d8 assets/nanophage/models/block/phage_heart.json
+97fad3648e8631029173f74037924ef89f9e6c3a assets/nanophage/blockstates/xeno_metal_slab.json
+26a33c2a32eca15578eb840c92b0345d8f103bed assets/nanophage/blockstates/xeno_metal_stairs.json
 82d2894450590c524c9da5edf306946cd161948a assets/nanophage/models/block/xeno_metal_block.json
-0428b1cefed18321e6fca5fa877a4157d8529870 assets/nanophage/models/item/phage_heart.json
+002ed23c2594086a016afe072dc497620c02a9d4 assets/nanophage/models/block/xeno_metal_slab.json
+b38407232336a0f9373dd35fc397e170c75c5471 assets/nanophage/models/block/xeno_metal_slab_top.json
+2e8b863daed8fc1fb45dacf5a38990eff0c84004 assets/nanophage/models/block/xeno_metal_stairs.json
+e2a833cb90986b07cc4ca58176820c3e7abb7642 assets/nanophage/models/block/xeno_metal_stairs_inner.json
+85fd15a2917de9a6c40078eb6bcd4964c349efed assets/nanophage/models/block/xeno_metal_stairs_outer.json
 6ecae825d2ebf00014b55a904d3d1a1983f00cda assets/nanophage/models/item/xeno_metal_block.json
+2df6eb2201c14a28d90929dfeaf413ce5120ed67 assets/nanophage/models/item/xeno_metal_slab.json
+7a1447cb06d1afe3a4d81b12d24885d8a37eac87 assets/nanophage/models/item/xeno_metal_stairs.json

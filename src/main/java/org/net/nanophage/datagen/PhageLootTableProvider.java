@@ -10,6 +10,7 @@ import java.util.Set;
 
 public class PhageLootTableProvider {
     public static LootTableProvider create(PackOutput pOutput) {
-        return new LootTableProvider(pOutput, Set.of(), List.of(new LootTableProvider.SubProviderEntry(PhageBlockLootTables::new, LootContextParamSets.BLOCK)));
+        return new LootTableProvider(pOutput, Set.of(), List.of(new LootTableProvider
+                .SubProviderEntry(PhageBlockLootTables::new, LootContextParamSets.BLOCK)));
     }
 }
