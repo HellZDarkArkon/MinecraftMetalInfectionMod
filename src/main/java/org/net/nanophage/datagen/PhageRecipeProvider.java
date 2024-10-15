@@ -40,7 +40,52 @@ public class PhageRecipeProvider extends RecipeProvider implements IConditionBui
                                 .unlockedBy("has_xeno_metal", inventoryTrigger(ItemPredicate.Builder.item()
                                         .of(PhageItems.XENO_METAL_PICKAXE.get()).build())).save(pWriter);
         ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS,
-                PhageItems.XENO_METAL_AXE)
+                PhageItems.XENO_METAL_AXE.get())
+                        .pattern(" ##").pattern(" @#").pattern(" @ ")
+                        .define('#', PhageItems.XENO_METAL_INGOT.get()).define('@', Items.STICK)
+                .unlockedBy("has_xeno_metal", inventoryTrigger(ItemPredicate.Builder.item().of(PhageItems.XENO_METAL_AXE.get()).build())).save(pWriter);
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT,
+                PhageItems.XENO_METAL_SWORD.get())
+                        .pattern(" # ").pattern(" # ").pattern(" @ ")
+                        .define('#', PhageItems.XENO_METAL_INGOT.get()).define('@', Items.STICK)
+                        .unlockedBy("has_xeno_metal", inventoryTrigger(ItemPredicate.Builder.item().of(PhageItems.XENO_METAL_SWORD.get())
+                                .build())).save(pWriter);
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS,
+                        PhageItems.XENO_METAL_SHOVEL.get())
+                .pattern(" # ").pattern(" @ ").pattern(" @ ")
+                .define('#', PhageItems.XENO_METAL_INGOT.get()).define('@', Items.STICK)
+                .unlockedBy("has_xeno_metal", inventoryTrigger(ItemPredicate.Builder.item().of(PhageItems.XENO_METAL_SWORD.get())
+                        .build())).save(pWriter);
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS,
+                        PhageItems.XENO_METAL_HOE.get())
+                .pattern("## ").pattern(" @ ").pattern(" @ ")
+                .define('#', PhageItems.XENO_METAL_INGOT.get()).define('@', Items.STICK)
+                .unlockedBy("has_xeno_metal", inventoryTrigger(ItemPredicate.Builder.item().of(PhageItems.XENO_METAL_SWORD.get())
+                        .build())).save(pWriter);
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT,
+                        PhageItems.XENO_METAL_HELMET.get())
+                .pattern("###").pattern("# #")
+                .define('#', PhageItems.XENO_METAL_INGOT.get())
+                .unlockedBy("has_xeno_metal", inventoryTrigger(ItemPredicate.Builder.item().of(PhageItems.XENO_METAL_SWORD.get())
+                        .build())).save(pWriter);
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT,
+                        PhageItems.XENO_METAL_CHESTPLATE.get())
+                .pattern("# #").pattern("###").pattern("###")
+                .define('#', PhageItems.XENO_METAL_INGOT.get())
+                .unlockedBy("has_xeno_metal", inventoryTrigger(ItemPredicate.Builder.item().of(PhageItems.XENO_METAL_SWORD.get())
+                        .build())).save(pWriter);
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT,
+                        PhageItems.XENO_METAL_LEGGINGS.get())
+                .pattern("###").pattern("# #").pattern("# #")
+                .define('#', PhageItems.XENO_METAL_INGOT.get())
+                .unlockedBy("has_xeno_metal", inventoryTrigger(ItemPredicate.Builder.item().of(PhageItems.XENO_METAL_SWORD.get())
+                        .build())).save(pWriter);
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT,
+                        PhageItems.XENO_METAL_BOOTS.get())
+                .pattern("# #").pattern("# #")
+                .define('#', PhageItems.XENO_METAL_INGOT.get())
+                .unlockedBy("has_xeno_metal", inventoryTrigger(ItemPredicate.Builder.item().of(PhageItems.XENO_METAL_SWORD.get())
+                        .build())).save(pWriter);
 
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC,
                 PhageItems.XENO_METAL_INGOT.get(), 9)

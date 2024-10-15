@@ -29,5 +29,17 @@
     },
     "done": true
   },
+  "nanophage:recipes/misc/xeno_metal_block": {
+    "criteria": {
+      "has_xeno_metal": "2024-10-15 07:58:37 -0400"
+    },
+    "done": true
+  },
+  "nanophage:recipes/misc/xeno_metal_ingot": {
+    "criteria": {
+      "has_xeno_metal_block": "2024-10-15 07:58:37 -0400"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }

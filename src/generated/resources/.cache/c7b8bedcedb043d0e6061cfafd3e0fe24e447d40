@@ -1,7 +1,11 @@
-// 1.20.1	2024-10-08T13:42:19.9438477	Item Models: nanophage
+// 1.20.1	2024-10-15T07:57:26.6427092	Item Models: nanophage
 f09e7d7c6026c8d26d9ad5cdb9b87ef5e5a11fb4 assets/nanophage/models/item/xeno_metal_axe.json
+66d58f21c2508013b81e8097c906c8632bffba5c assets/nanophage/models/item/xeno_metal_boots.json
+36d8b33466ce5f47d6f362cfe42d0063096c3937 assets/nanophage/models/item/xeno_metal_chestplate.json
+9aaa39021b5f0fac9ff95b7b88ab2bc3c567cf7e assets/nanophage/models/item/xeno_metal_helmet.json
 c879b773c6a4e46b58f85858569432bab930d4a9 assets/nanophage/models/item/xeno_metal_hoe.json
 0a84a900247af94ef0076f171499ea36bcd1cc03 assets/nanophage/models/item/xeno_metal_ingot.json
+63671d3d79a3c1cdacbc39d4cf59ef2ff6187278 assets/nanophage/models/item/xeno_metal_leggings.json
 3ea1ea1a6b47c0833f868232b5c67f4fcec07679 assets/nanophage/models/item/xeno_metal_nugget.json
 86242e924e35c6f94afeaa09258ff483d4b08d65 assets/nanophage/models/item/xeno_metal_pickaxe.json
 00a5878dbb41da328890dc3f19b7b5a5ab546e59 assets/nanophage/models/item/xeno_metal_shovel.json
