@@ -3,6 +3,8 @@ package org.net.nanophage.datagen;
 import net.minecraft.advancements.critereon.ItemPredicate;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.*;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.AbstractCookingRecipe;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.crafting.RecipeSerializer;
@@ -30,6 +32,16 @@ public class PhageRecipeProvider extends RecipeProvider implements IConditionBui
                 .define('#', PhageItems.XENO_METAL_INGOT.get())
                 .unlockedBy("has_xeno_metal", inventoryTrigger(ItemPredicate.Builder.item()
                         .of(PhageItems.XENO_METAL_INGOT.get()).build())).save(pWriter);
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS,
+                PhageItems.XENO_METAL_PICKAXE.get())
+                        .pattern("###")
+                                .pattern(" @ ").pattern(" @ ")
+                        .define('#',PhageItems.XENO_METAL_INGOT.get()).define('@', Items.STICK)
+                                .unlockedBy("has_xeno_metal", inventoryTrigger(ItemPredicate.Builder.item()
+                                        .of(PhageItems.XENO_METAL_PICKAXE.get()).build())).save(pWriter);
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS,
+                PhageItems.XENO_METAL_AXE)
+
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC,
                 PhageItems.XENO_METAL_INGOT.get(), 9)
                 .requires(PhageBlocks.XENO_METAL_BLOCK.get())
