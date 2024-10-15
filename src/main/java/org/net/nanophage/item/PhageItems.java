@@ -2,6 +2,7 @@ package org.net.nanophage.item;
 
 import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
+import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.registries.*;
 import org.net.nanophage.Nanophage;
 
@@ -21,6 +22,10 @@ public class PhageItems {
     public static final RegistryObject<Item> XENO_METAL_AXE = ITEM_REGISTER.register("xeno_metal_axe", ()->new AxeItem(PhageToolTiers.XENO_METAL, 2, 3, new Item.Properties().durability(256)));
     public static final RegistryObject<Item> XENO_METAL_HOE = ITEM_REGISTER.register("xeno_metal_hoe", ()->new HoeItem(PhageToolTiers.XENO_METAL, 2, 3, new Item.Properties().durability(256)));
 
+    public static final RegistryObject<Item>  XENO_METAL_HELMET = ITEM_REGISTER.register("xeno_metal_helm", ()->new ArmorItem(ModArmorMaterials.XENO_METAL_INGOT, ArmorItem.Type.HELMET, new Item.Properties()));
+    public static final RegistryObject<Item> XENO_METAL_CHESTPLATE = ITEM_REGISTER.register("xeno_metal_chestplate", ()->new ArmorItem(ModArmorMaterials.XENO_METAL_INGOT, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
+    public static final RegistryObject<Item> XENO_METAL_LEGGINGS = ITEM_REGISTER.register("xeno_metal_leggings", ()->new ArmorItem(ModArmorMaterials.XENO_METAL_INGOT, ArmorItem.Type.LEGGINGS, new Item.Properties()));
+    public static final RegistryObject<Item> XENO_METAL_BOOTS = ITEM_REGISTER.register("xeno_metal_boots", ()->new ArmorItem(ModArmorMaterials.XENO_METAL_INGOT, ArmorItem.Type.BOOTS, new Item.Properties()));
 
 
     public static void register(IEventBus eventbus) {
